@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    --cor-escura: #3C0753;
+    --cor-texto-clara: #fff;
+    --cor-transparente: #ffffffc4;
+    --cor-sombra-containerCentralInicio: #1f26875e;
+    --cor-sombra-servicos: #0000005c;
+}
+body{
+    width: 100%;
+    font-family: "Truculenta", sans-serif;
+}
+.cabecalho{
+    width: 100%;
+    background-image: url("../assets/banner-topo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.cabecalho, .conteudoCentro, .conteudoLarguraTotal, .ondeEstamos{
+    padding: 120px 80px;
+}
+.cabecalho_marca{
+   max-width: 250px;
+   color: var(--cor-escura);
+}
+.cabecalho_marca_logo_nome{
+    font-size: 35px;
+    margin: 0 0 5px 0 ; 
+}
+.cabecalho_marca img{
+    width: 30px;
+    margin-right: 5px;
+}
+.cabecalho_frase{
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+.containerCentralInicio{
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0 auto;
+    background-color: var(--cor-transparente);
+    box-shadow: 0 8px 32px var(--cor-transparente);
+}
+.containerCentralInicio_contato h1{
+    font-size: 60px;
+    color:var(--cor-escura);
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 40px 0;
+}
+.containerCentralInicio_contato p{
+    width: 200px;
+    padding: 10px 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: var(--cor-escura);
+    font-size: 20px;
+    text-align: center;
+}
+.containerCentralInicio_contato a{
+    text-decoration: none;
+    color: #fff;
+}
+.containerCentralInicio_contato img{
+    width: 20px;
+}
+.conteudoCentro, .marcas_secacao_container, .imagensServicos, 
+.conteudoLarguraTotal p, .marcas div{
+    max-width: 800px;
+}
+.conteudoCentro{
+    margin: 0 auto 50px auto;
+    color: var(--cor-escura);
+}
+.nossosServicos h3, .marcas h3, .ondeEstamos h3 {
+    font-size: 36px;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+.nossosServicos_lista li{
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+.nossosServicos_lista li span, .conteudoLarguraTotal span {
+    font-weight: 700;
+    font-style: italic;
+}
+.marcas_secacao_container, .imagensServicos{
+    display: flex;
+    justify-content: left;
+}
+.imagensServicos img{
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px var(--cor-sombra-servicos);
+}
+.conteudoLarguraTotal{
+    width: 100%;
+    background-color: var(--cor-escura);
+    text-align: center;
+}
+.conteudoLarguraTotal p{
+    margin: 0 auto 50px auto;
+    font-size: 40px;
+    color: var(--cor-texto-clara);
+}
+.conteudoLarguraTotal_redesSociais{
+    margin: 0 20px;
+}
+.conteudoLarguraTotal_redesSociais img{
+    width: 50px;
+    height: 50px;
+}
+.marcas div{
+    margin: 0 auto;
+}
+.marcas_secacao_container img{
+    width: 148px;
+    margin: 0 15px 0 15px;
+}
+.ondeEstamos{
+    width:100%;
+    text-align: center;
+}
+.ondeEstamos p{
+    font-size: 20px;
+    color: var(--cor-escura);
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+.ondeEstamos iframe{
+    width: 800px;
+    height: 450px;
+}
+footer{
+    width: 100%;
+    padding: 13px 0;
+    background-color: var(--cor-escura);
+    color: var(--cor-texto-clara);
+    font-size: 15px;
+    text-align: center;
+}
